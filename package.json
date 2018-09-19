@@ -1,0 +1,35 @@
+{
+  "name": "jp-parser",
+  "version": "1.0.0",
+  "description": "Internal module node/lib/internal/repl/await.js from Node.js JavaScript runtime",
+  "main": "index.js",
+  "files": [
+    "vendor/"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-riesco/jp-parser.git"
+  },
+  "keywords": [
+    "Node.js",
+    "await",
+    "REPL",
+    "NEL",
+    "ijavascript"
+  ],
+  "author": "Nicolas Riesco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-riesco/jp-parser/issues"
+  },
+  "homepage": "https://github.com/n-riesco/jp-parser#readme",
+  "dependencies": {
+    "acorn": "5"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
